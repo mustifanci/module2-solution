@@ -9,6 +9,10 @@ h1 {
 
 h3 {
     background-color: aqua;
+    border: 1px solid black;
+    text-align: right;
+    top: 0%;
+    display: flex;
 }
 
 .row {
@@ -21,16 +25,67 @@ h3 {
     .col-lg-3 {
         float: left;
         border: 1px solid green;
-        padding: 10px;
     }
     .col-lg-1 {
-        width: 33%;
+        width: 29%;
+        background-color: chocolate;
+        position: relative;
+        margin: 2%;
+    }
+    .first {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: blueviolet;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text1 {
+        margin-top: 5%;
     }
     .col-lg-2 {
-        width: 33%;
+        width: 29%;
+        background-color: chocolate;
+        position: relative;
+        margin: 2%;
+    }
+    .second {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: brown;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text2 {
+        margin-top: 5%;
     }
     .col-lg-3 {
-        width: 33%;
+        width: 29%;
+        background-color: chocolate;
+        position: relative;
+        margin: auto;
+        margin: 2%;
+    }
+    .third {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: crimson;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text3 {
+        margin-top: 5%;
     }
 }
 
@@ -40,18 +95,131 @@ h3 {
     .col-mg-3 {
         float: left;
         border: 1px solid green;
-        padding: 7px;
+    }
+    h3 {
+        font-size: 75%;
     }
     .col-mg-1 {
-        width: 50%;
+        width: 48%;
+        background-color: chocolate;
+        position: relative;
+        margin: 1%;
+    }
+    .first {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: blueviolet;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text1 {
+        margin-top: 5%;
     }
     .col-mg-2 {
-        width: 50%;
+        width: 48%;
+        background-color: chocolate;
+        position: relative;
+        margin: 1%;
+    }
+    .second {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: brown;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text2 {
+        margin-top: 5%;
     }
     .col-mg-3 {
-        width: 100%;
+        width: 98%;
+        background-color: chocolate;
+        position: relative;
+        margin: 1%;
+    }
+    .third {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: crimson;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text3 {
+        margin-top: 5%;
     }
 }
 
-
+@media (max-width: 767px) {
+    .col-sg-1 {
+        width: 100%;
+        background-color: chocolate;
+        position: relative;
+        margin: 5px;
+    }
+    .first {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: blueviolet;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text1 {
+        padding-top: 10%;
+    }
+    .col-sg-2 {
+        width: 100%;
+        background-color: chocolate;
+        position: relative;
+        margin: 5px;
+    }
+    .second {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: brown;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text2 {
+        padding-top: 10%;
+    }
+    .col-sg-3 {
+        width: 100%;
+        background-color: chocolate;
+        position: relative;
+        margin: 5px;
+    }
+    .third {
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: right;
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        background-color: crimson;
+        font-weight: bold;
+        padding: 2px;
+    }
+    #text3 {
+        padding-top: 10%;
+    }
 }
